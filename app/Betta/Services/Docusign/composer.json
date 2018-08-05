@@ -1,0 +1,15 @@
+{
+  "name"        : "naemo/docusign-client",
+  "description" : "DocuSign eSignignature PHP Client Library",
+  "authors"     : [{
+                    "name" : "Cyrill N Kalita",
+                    "email": "nick@frictionlesssolutions.com",
+                    "role" : "Architect"
+                  }],
+  "require"     : {
+                    "laravel/framework": "^5.3.*"
+                  },
+  "autoload"    : {
+    "files": [ "src/DocusignClient.php" ]
+  }
+}
